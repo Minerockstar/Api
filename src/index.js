@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import GetMovie from './GetMovie';
 import reportWebVitals from './reportWebVitals';
 import Movie from './Movie';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     // <App />
-    <Movie />
+    // <Movie />
+    <GetMovie />
 );
 
 // If you want to start measuring performance in your app, pass a function
